@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       {/*step for Links */}
-      {/* <Link to='/home'>Home </Link> | 
+       <Link to='/home'>Home </Link> | 
       <Link to='/about'>About </Link> | 
       <Link to='/services'>Services </Link> |
       <Link to='/Contacts'>Contacts </Link> |
@@ -26,9 +26,9 @@ function App() {
         <Route path='/contacts' element={<Contact/>}></Route>
         <Route path='/products' element={<Products/>}></Route>
         <Route path='/products/:productId' element={<ProductDetails/>}/>
-      </Routes> */}
-      <ParentComponent/>
-      <UseRefComponet/>
+      </Routes> 
+      // <ParentComponent/>
+      // <UseRefComponet/>
       
     </div>
   );
